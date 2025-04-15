@@ -9,7 +9,7 @@
 				#map_canvas { height: 100% }
 			</style>
 			<script type="text/javascript"
-				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCojmxiSM7VTPNBPlT_ma_PxWwhLWz0r2s">
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCojmxiSM7VTPNBPlT_ma_PxWwhLWz0r2s&loading=async&callback=initialize">
 			</script>
 			<script type="text/javascript"
                                 src="markermanager_packed.js">
@@ -112,7 +112,7 @@ xmlHttp.send(null);
 
 </script>
 		</head>
-		<body onload="initialize()">
+		<body>
 		<div id="map_canvas" style="width:100%; height:100%"></div>
 		<p></p>
 		</body>
